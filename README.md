@@ -1,16 +1,78 @@
-# React + Vite
+# ShopEasy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ShopEasy is a modern e-commerce frontend application built with React, React Router DOM, Tailwind CSS, and Vite. The project demonstrates reusable components, nested routing using Outlet, responsive UI design, and clean folder architecture.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive Navigation Bar
+- Hero Section
+- Featured Products Showcase
+- Nested Routing with React Router DOM
+- Shared Layout using Outlet
+- Reusable Product Cards
+- Modern Tailwind CSS Styling
+- Responsive and Clean UI
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- React Router DOM
+- Tailwind CSS
+- Vite
+- JavaScript (ES6+)
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── assets/
+│   ├── hero.png
+│   ├── react.svg
+│   └── vite.svg
+│
+├── Components/
+│   ├── Header.jsx
+│   ├── Footer.jsx
+│   ├── Hero.jsx
+│   ├── ProductCard.jsx
+│   └── ProductSection.jsx
+│
+├── Layouts/
+│   └── MainLayout.jsx
+│
+├── Pages/
+│   ├── Home.jsx
+│   ├── About.jsx
+│   ├── Cart.jsx
+│   └── Contact.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## Learning Outcomes
+
+- Component-Based Architecture
+- React Props
+- React Router DOM
+- Nested Routing
+- Layouts using Outlet
+- Reusable UI Components
+- Responsive Design with Tailwind CSS
+
+## Future Improvements
+
+- Add Cart Functionality
+- Context API State Management
+- Product Details Page
+- API Integration
+- Search and Filter Products
+- User Authentication
+- Checkout Flow
+
+## Author
+
+**Nency-debuger**
+
+B.Tech IT Student | React Developer | Learning MERN-Stack Development
